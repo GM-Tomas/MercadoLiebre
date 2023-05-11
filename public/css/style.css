@@ -30,7 +30,7 @@ span {
   font-size: 12px;
 }
 
-body{
+body {
   width: 100vw;
   color: var(--gris-oscuro);
   background-color: var(--gris-claro);
@@ -94,7 +94,7 @@ header {
   border-bottom-right-radius: 5px;
 }
 
-.search-bar{
+.search-bar {
   display: flex;
   align-items: center;
 }
@@ -155,16 +155,12 @@ main {
 
 
 .icon-container {
-  display: block;
-  font-size: 16px;
   padding: 5px;
   width: 30px;
   height: 30px;
   border: 1px solid var(--verde);
   background-color: var(--blanco);
   border-radius: 50%;
-  right: 20px;
-  top: -15px;
   align-self: flex-end;
   margin-right: 3vw;
 }
@@ -219,6 +215,10 @@ main {
 Footer Style
 */
 
+.mercado-liebre-footer {
+  background-color: var(--blanco);
+}
+
 .footer-container {
   display: flex;
   flex-direction: column;
@@ -268,7 +268,7 @@ Hover animation
   display: block;
 }
 
-.fa-truck:hover {
+.product:hover .fa-truck {
   transform: rotate(-90deg);
 }
 
